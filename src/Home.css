@@ -1,0 +1,168 @@
+.section {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: white;
+    margin: 2% 18%;
+}
+  
+  .section-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative; /* Added */
+  }
+  
+  .section-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .section-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
+  .section-icon {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .drag-button {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    margin-right: 10px;
+    cursor: grab;
+  }
+  
+  .drag-button:hover {
+    background-color: #aaa;
+  }
+  
+  .drag-button:active {
+    cursor: grabbing;
+  }
+  
+  .save {
+    margin-left: auto;
+  }
+  
+  .section-item:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .addMore {
+    border: none;
+    width: 32px;
+    height: 32px;
+    background-color: #eee;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+  }
+  
+  .addMore:hover {
+    border: 1px solid #888;
+    background-color: #ddd;
+  }
+  
+  .message-box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .box-close {
+    margin-top: 5px;
+  }
+
+  .section-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left side */
+    padding: 5px;
+    position: relative; /* Added */
+  }
+  
+  .section-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left side */
+  }
+  
+  .section-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left side */
+  }
+  
+  .section-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+  }
+  
+  .section-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left side */
+    width: 100%;
+  }
+  
+  .section-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align items to the right side */
+    width: 100%;
+  }
+  .edit{
+    /* remove by default css */
+    background:#fff !important ;
+    border : none!important;
+    color: #0d0d0e !important;
+    font-size:26px !important;
+    margin-left:-7% !important;
+    cursor:pointer;
+
+    color:"black";
+  }
+.drag{
+    /* remove by default css */
+    background:#fff !important ;
+    border : none!important;
+    color: #0d0d0e !important;
+    font-size:20px !important;
+    margin-right:-8% !important;
+    cursor:move;
+
+}
+
+.drag-button {
+    width: 20px;
+    height: 20px;
+    /* set  */
+    margin-right: 10px;
+    cursor: grab;
+    
+}
+
+
+h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+}
