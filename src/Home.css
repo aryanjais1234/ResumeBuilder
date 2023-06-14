@@ -166,3 +166,7 @@ h2{
     gap: 30px;
     padding-top: 20px;
 }
+button.save {
+    background-color: white;
+    border: none;
+}
